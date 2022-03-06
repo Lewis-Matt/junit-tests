@@ -17,7 +17,7 @@ public class Student {
     }
 
     // returns the student's id
-    public long getId() {
+    public long getID() {
         return id;
     }
 
@@ -44,13 +44,4 @@ public class Student {
         }
         return sum / grades.size();
     }
-
-    public static void main(String[] args) {
-        Student april = new Student("April", 2);
-        april.getId();
-        april.getName();
-        april.getGrades();
-    }
-
-
 }
